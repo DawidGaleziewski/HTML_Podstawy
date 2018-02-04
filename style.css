@@ -1,34 +1,45 @@
 body {
 	background-color: #4d4d4d;
 	color: #FFFFFF;
-	margin: 0;
 	font-family: 'Rubik', sans-serif;
 }
 
 section {
+	hight:200px;
+	width:600px;
+	margin: 50px auto;
 	background-color: #3a3a3a;
-	margin-top: 50px;
-	margin-left: 20%;
-	margin-right: 20%;
 	text-align: center;
 	border: 1px solid black;
 }
 
 h1 {
-	margin-left: 10%;
 	margin-top: 50px;
+	text-align: center;
 }
 
 p {
-	padding-top:20px;
-	padding-bottom:20px;
+	margin: 0 auto;
+	text-align: center;
+	
 }
+
 
 p:first-child {
 	background-color:black;
+	font-size: 2.5em;
+	padding:10px;
+
 }
 
-p:nth-child(2) {
+p:nth-child(2n) {
+	padding:20px;
 	background-color: #5e5e5e;
+	font-size: 1em;
+}
+
+p:nth-child(3n) {
+	padding: 5px;
+	font-size: 2em;
 }
 
